@@ -6,7 +6,7 @@ $headerPhpDoc = "Translates a number to a short alphanumeric version\n"
     . "@author Simon Franz\n"
     . "@author Deadfish\n"
     . "@author SK83RJOSH\n"
-    . "@author Alexey Samara <lion.samara@gmail.com> (https://github.com/wow-apps)\n"
+    . "@author Alexey Samara <lion.samara@gmail.com> (https://wow-apps.pro)\n"
     . "@copyright 2008 Kevin van Zonneveld.";
 
 return PhpCsFixer\Config::create()
