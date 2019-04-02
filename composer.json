@@ -1,0 +1,59 @@
+{
+    "name": "kvz/youtube-id",
+    "license": "MIT",
+    "description": "Translates a number to a short alphanumeric version",
+    "type": "library",
+    "keywords": [
+        "youtube id",
+        "id generator",
+        "generator",
+        "id"
+    ],
+    "homepage": "https://github.com/kvz/youtube-id",
+    "authors": [
+        {
+            "name": "Kevin van Zonneveld",
+            "role": "lead",
+            "email": "kevin@transloadit.com",
+            "homepage": "https://github.com/kvz"
+        },
+        {
+            "name": "Alexey Samara",
+            "role": "developer",
+            "email": "lion.samara@gmail.com",
+            "homepage": "https://wow-apps.pro"
+        },
+        {
+            "name": "Simon Franz",
+            "role": "developer"
+        },
+        {
+            "name": "Deadfish",
+            "role": "developer"
+        },
+        {
+            "name": "SK83RJOSH",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/kvz/youtube-id/issues",
+        "wiki": "https://github.com/kvz/youtube-id/wiki",
+        "source": "https://github.com/kvz/youtube-id"
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5.*",
+        "friendsofphp/php-cs-fixer": "^2.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kvz\\YoutubeId\\": ""
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    }
+}
