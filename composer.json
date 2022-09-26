@@ -42,10 +42,10 @@
         "source": "https://github.com/kvz/youtube-id"
     },
     "require": {
-        "php": "^7.0"
+        "php": ">=7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "7.5.*",
+        "phpunit/phpunit": ">=7.5",
         "friendsofphp/php-cs-fixer": "^2.14"
     },
     "autoload": {
